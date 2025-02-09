@@ -7,6 +7,7 @@ body {
   color: #ffffff;
   height: 100vh;
   margin: 0;
+
 }
 
 .game-container {
@@ -82,7 +83,23 @@ body {
   display: none;
 }
 
-.score{
-    font-size: 20px;
-    margin-bottom: 10px;
+.score {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+
+#food{
+  width: 20px;
+  height: 20px;
+  background-color: #ff0000;
+  position: absolute;
+  
+}
+
+.snake{
+  width: 20px;
+  height: 20px;
+  background-color: #00ff00;
+  position: absolute;
 }

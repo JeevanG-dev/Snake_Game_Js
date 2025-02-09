@@ -15,17 +15,17 @@
     <div class="game-board" id="game-board">
         <div class="overlay" id="overlay">
             <p id="gameOverMsg"></p>
-            <button class="btn">
+            <button class="btn" id="play-btn" onclick="startGame()">
                 Play
             </button>
         </div>
     </div>
 
-    <div class="controls" id="controls">
-        <button class="up-btn btn">Up</button>
-        <button class="left-btn btn">Left</button>
-        <button class="down-btn btn">Down</button>
-        <button class="right-btn btn">Right</button>
+    <div class="controls" id="controlsArea">
+        <button class="up-btn btn" onclick="changeDirection('up')">Up</button>
+        <button class="left-btn btn" onclick="changeDirection('left')">Left</button>
+        <button class="down-btn btn" onclick="changeDirection('down')">Down</button>
+        <button class="right-btn btn" onclick="changeDirection('right')">Right</button>
     </div>
 
 </div>
